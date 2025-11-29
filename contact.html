@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma Café | Contact</title>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Back to top button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        ↑
+    </button>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Aroma Café</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section class="section-padding" aria-labelledby="contact-heading">
+            <div class="container contact-layout">
+                <div class="contact-info">
+                    <h1 id="contact-heading" class="section-title">Get in Touch</h1>
+                    <p class="section-intro">
+                        Have a question, want to place a group order, or book space for an
+                        event? Send us a message using the form, or reach us using the
+                        details below.
+                    </p>
+
+                    <ul class="contact-details">
+                        <li><strong>Address:</strong> Qilla Saifullah Block B, Balochistan </li>
+                        <li><strong>Phone:</strong> +92 3007193502</li>
+                        <li><strong>Phone:</strong> +92 3108930854</li>
+                        <li><strong>Email:</strong> juttboys4540@gmail.com</li>
+                    </ul>
+
+                    <h2>Opening Hours</h2>
+                    <ul class="hours-list">
+                        <li>Monday – Friday: 8:00 AM – 9:00 PM</li>
+                        <li>Saturday: 9:00 AM – 10:00 PM</li>
+                        <li>Sunday: 9:00 AM – 8:00 PM</li>
+                    </ul>
+
+                    <div class="map-placeholder">
+                        <!-- Placeholder for map image or embedding a real map later -->
+                        <p>Map location will appear here.</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Contact Form</h2>
+                    <!-- 
+                        We use JavaScript to validate this form on submit.
+                        The "id" is used by main.js to find and handle this form.
+                    -->
+                    <form id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required>
+                            <small class="error-message" id="error-name"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required>
+                            <small class="error-message" id="error-email"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone (optional)</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+92 0000000000">
+                            <small class="error-message" id="error-phone"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject <span class="required">*</span></label>
+                            <input type="text" id="subject" name="subject" required>
+                            <small class="error-message" id="error-subject"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="reason">Reason for Contact</label>
+                            <select id="reason" name="reason">
+                                <option value="">Select an option</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="order">Bulk / Event Order</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <small class="error-message" id="error-message"></small>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+
+                        <!-- General form message -->
+                        <p id="form-status" class="form-status" role="alert" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="current-year"></span> Aroma Café. All rights reserved.</p>
+            <p class="footer-sub">
+                Qilla Saifullah Block B, Balochistan • Phone: +92300 7193502
+
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma Café | Menu</title>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Back to top button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        ↑
+    </button>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Aroma Café</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <!-- Menu Intro -->
+        <section class="section-padding" aria-labelledby="menu-heading">
+            <div class="container">
+                <h1 id="menu-heading" class="section-title">Our Menu</h1>
+                <p class="section-intro">
+                    Explore our selection of freshly brewed coffees, specialty drinks, teas,
+                    and homemade snacks. Use the filters below to browse by category.
+                </p>
+
+                <!-- Filter Buttons -->
+                <div class="menu-filter" aria-label="Filter menu items">
+                    <!-- data-filter value must match data-category of menu items -->
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="coffee">Coffee</button>
+                    <button class="filter-btn" data-filter="tea">Tea</button>
+                    <button class="filter-btn" data-filter="dessert">Desserts</button>
+                    <button class="filter-btn" data-filter="snack">Snacks</button>
+                </div>
+
+                <!-- Menu Grid -->
+                <div class="menu-grid">
+                    <!-- Coffee Items -->
+                        <article class="menu-item" data-category="dessert">
+                        <h2>Latte</h2>
+                        <p class="description">Smooth espresso mixed with plenty of steamed milk and a light layer of foam.</p>
+                        <p class="price">$4.20</p>
+                    </article>
+                    <article class="menu-item" data-category="coffee">
+                        <h2>Americano</h2>
+                        <p class="description">Rich espresso diluted with hot water for a bold and balanced flavor.</p>
+                        <p class="price">$3.50</p>
+                    </article><article class="menu-item" data-category="coffee">
+                        <h2>Mocha</h2>
+                        <p class="description">Espresso blended with chocolate syrup, steamed milk, and topped with whipped cream.</p>
+                        <p class="price">$4.50</p>
+                    </article>
+                     <article class="menu-item" data-category="coffee">
+    <h2>Affogato</h2>
+    <p class="description">A scoop of vanilla ice cream drowned in a shot of hot espresso.</p>
+    <p class="price">$4.90</p>
+</article>
+
+<article class="menu-item" data-category="coffee">
+    <h2>Hazelnut Cappuccino</h2>
+    <p class="description">Classic cappuccino infused with hazelnut flavor for a warm, nutty aroma.</p>
+    <p class="price">$4.60</p>
+</article>
+
+<article class="menu-item" data-category="coffee">
+    <h2>Vanilla Latte</h2>
+    <p class="description">Smooth espresso blended with steamed milk and vanilla syrup.</p>
+    <p class="price">$4.40</p>
+</article>
+
+                    <article class="menu-item" data-category="coffee">
+                        <h2>Espresso</h2>
+                        <p class="description">Classic, rich espresso shot.</p>
+                        <p class="price">$2.50</p>
+                    </article>
+
+                    <article class="menu-item" data-category="coffee">
+                        <h2>Cappuccino</h2>
+                        <p class="description">Espresso with steamed milk and milk foam.</p>
+                        <p class="price">$3.80</p>
+                    </article>
+
+                    <article class="menu-item" data-category="coffee">
+                        <h2>Iced Mocha</h2>
+                        <p class="description">Chilled coffee with chocolate and milk.</p>
+                        <p class="price">$4.20</p>
+                    </article>
+
+                    <!-- Tea Items -->
+       <article class="menu-item" data-category="tea">
+    <h2>Kashmiri Pink Tea</h2>
+    <p class="description">Traditional creamy pink tea with a hint of salt and aromatic spices.</p>
+    <p class="price">$3.80</p>
+</article>
+<article class="menu-item" data-category="tea">
+    <h2>Chamomile Tea</h2>
+    <p class="description">A soothing floral tea known for its relaxing and calming effects.</p>
+    <p class="price">$3.00</p>
+</article>
+
+
+<article class="menu-item" data-category="tea">
+    <h2>Herbal Mint Tea</h2>
+    <p class="description">A calming blend of herbs and fresh mint leaves.</p>
+    <p class="price">$3.00</p>
+</article>
+
+<article class="menu-item" data-category="tea">
+    <h2>Black Tea</h2>
+    <p class="description">Strong and bold tea brewed to perfection.</p>
+    <p class="price">$2.60</p>
+</article>
+
+<article class="menu-item" data-category="tea">
+    <h2>Lemon Ginger Tea</h2>
+    <p class="description">A warm infusion of lemon and ginger for soothing comfort.</p>
+    <p class="price">$3.10</p>
+</article>
+
+                    <article class="menu-item" data-category="tea">
+                        <h2>Masala Chai</h2>
+                        <p class="description">Spiced Indian tea brewed with milk.</p>
+                        <p class="price">$3.20</p>
+                    </article>
+
+                    <article class="menu-item" data-category="tea">
+                        <h2>Green Tea</h2>
+                        <p class="description">Light and refreshing, served hot.</p>
+                        <p class="price">$2.80</p>
+                    </article>
+
+                    <article class="menu-item" data-category="tea">
+                        <h2>Iced Lemon Tea</h2>
+                        <p class="description">Sweet and tangy, served over ice.</p>
+                        <p class="price">$3.00</p>
+                    </article>
+
+                    <!-- Dessert Items -->
+            <article class="menu-item" data-category="dessert">
+    <h2>Brownie Sundae</h2>
+    <p class="description">Warm chocolate brownie topped with vanilla ice cream and chocolate syrup.</p>
+    <p class="price">$4.90</p>
+</article>
+
+<article class="menu-item" data-category="dessert">
+    <h2>Caramel Pudding</h2>
+    <p class="description">Smooth and creamy pudding drizzled with rich caramel sauce.</p>
+    <p class="price">$3.80</p>
+</article>
+
+<article class="menu-item" data-category="dessert">
+    <h2>Red Velvet Cupcake</h2>
+    <p class="description">Moist red velvet cupcake topped with soft cream cheese frosting.</p>
+    <p class="price">$3.40</p>
+</article>
+
+<article class="menu-item" data-category="dessert">
+    <h2>Chocolate Chip Cookie</h2>
+    <p class="description">Freshly baked cookie loaded with gooey chocolate chips.</p>
+    <p class="price">$2.20</p>
+</article>
+
+                    <article class="menu-item" data-category="dessert">
+                        <h2>Cheesecake Slice</h2>
+                        <p class="description">Creamy cheesecake with a buttery crust.</p>
+                        <p class="price">$4.50</p>
+                    </article>
+
+                    <article class="menu-item" data-category="dessert">
+                        <h2>Chocolate Muffin</h2>
+                        <p class="description">Soft muffin loaded with chocolate chips.</p>
+                        <p class="price">$2.90</p>
+                    </article>
+
+                    <article class="menu-item" data-category="dessert">
+                        <h2>Cinnamon Roll</h2>
+                        <p class="description">Warm roll topped with vanilla icing.</p>
+                        <p class="price">$3.40</p>
+                    </article>
+
+                    <!-- Snack Items -->
+<article class="menu-item" data-category="snack">
+    <h2>Stuffed Potato Skins</h2>
+    <p class="description">Crispy potato skins filled with cheese, bacon bits, and chives.</p>
+    <p class="price">$4.80</p>
+</article>
+
+<article class="menu-item" data-category="snack">
+    <h2>Stuffed Nachos</h2>
+    <p class="description">Crispy nachos loaded with cheese, beans, and fresh vegetables.</p>
+    <p class="price">$4.50</p>
+</article>
+
+<article class="menu-item" data-category="snack">
+    <h2>Mini Spring Rolls</h2>
+    <p class="description">Golden rolls filled with seasoned vegetables and served with sweet chili sauce.</p>
+    <p class="price">$3.80</p>
+</article>
+
+<article class="menu-item" data-category="snack">
+    <h2>Cheese Quesadilla</h2>
+    <p class="description">Grilled tortilla stuffed with melted cheese and herbs, served with salsa.</p>
+    <p class="price">$4.20</p>
+</article>
+
+<article class="menu-item" data-category="snack">
+    <h2>Onion Rings</h2>
+    <p class="description">Crispy battered onion rings served with tangy dipping sauce.</p>
+    <p class="price">$3.60</p>
+</article>
+
+                    <article class="menu-item" data-category="snack">
+                        <h2>Veggie Sandwich</h2>
+                        <p class="description">Fresh vegetables with cheese in toasted bread.</p>
+                        <p class="price">$4.80</p>
+                    </article>
+
+                    <article class="menu-item" data-category="snack">
+                        <h2>Garlic Bread</h2>
+                        <p class="description">Toasted bread with garlic butter and herbs.</p>
+                        <p class="price">$3.10</p>
+                    </article>
+
+                    <article class="menu-item" data-category="snack">
+                        <h2>Classic Fries</h2>
+                        <p class="description">Crispy fries with house seasoning.</p>
+                        <p class="price">$2.90</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="current-year"></span> Aroma Café. All rights reserved.</p>
+            <p class="footer-sub">
+                Qilla Saifullah Block B, Balochistan • Phone: +92300 7193502
+
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js" defer></script>
+</body>
+</html>

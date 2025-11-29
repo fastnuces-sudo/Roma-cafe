@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma Café | Home</title>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Back to top button (shared on all pages) -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        ↑
+    </button>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <!-- Logo image (optional) -->
+                <!-- <img src="images/logo-aroma-cafe.png" alt="Aroma Café Logo"> -->
+                <span class="logo-text">Aroma Café</span>
+            </a>
+
+            <!-- Main Navigation -->
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 id="hero-heading">Welcome to Aroma Café</h1>
+                    <p>
+                        A cozy neighborhood café serving freshly brewed coffee, homemade
+                        pastries, and warm smiles—all day, every day.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="menu.html" class="btn btn-primary">View Our Menu</a>
+                        <a href="contact.html" class="btn btn-outline">Book a Table</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Placeholder hero image -->
+                    <img src="images/interiorview.jpg" alt="A cup of coffee at Aroma Café">
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlights Section -->
+        <section class="highlights section-padding" aria-labelledby="highlights-heading">
+            <div class="container">
+                <h2 id="highlights-heading" class="section-title">Why People Love Aroma Café</h2>
+                <div class="highlights-grid">
+                    <article class="highlight-card">
+                        <img src="images/icon-coffee.png" alt="Coffee icon" class="icon">
+                        <h3>Freshly Roasted Coffee</h3>
+                        <p>
+                            We source premium beans and roast them in small batches to bring
+                            out the perfect flavor in every cup.
+                        </p>
+                    </article>
+
+                    <article class="highlight-card">
+                        <img src="images/dessert.jpg" alt="Dessert icon" class="icon">
+                        <h3>Homemade Treats</h3>
+                        <p>
+                            Our in-house bakery prepares cakes, cookies, and pastries fresh
+                            every morning.
+                        </p>
+                    </article>
+
+                    <article class="highlight-card">
+                        <img src="images/CozyAmbience.jpg" alt="Tea icon" class="icon">
+                        <h3>Cozy Ambience</h3>
+                        <p>
+                            Soft music, warm lighting, and comfortable seating make Aroma Café
+                            perfect for study, work, or relaxation.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specials Section -->
+        <section class="specials section-padding" aria-labelledby="specials-heading">
+            <div class="container">
+                <h2 id="specials-heading" class="section-title">Today’s Specials</h2>
+                <div class="specials-grid">
+                    <article class="special-card">
+                        <h3>Caramel Latte</h3>
+                        <p class="price">$4.50</p>
+                        <p>
+                            A rich espresso topped with steamed milk and homemade caramel
+                            sauce.
+                        </p>
+                    </article>
+
+                    <article class="special-card">
+                        <h3>Chocolate Fudge Brownie</h3>
+                        <p class="price">$3.20</p>
+                        <p>
+                            Dense, gooey brownie baked with premium dark chocolate and walnuts.
+                        </p>
+                    </article>
+
+                    <article class="special-card">
+                        <h3>Herbal Relax Tea</h3>
+                        <p class="price">$3.80</p>
+                        <p>
+                            A calming blend of chamomile, peppermint, and lemongrass to help
+                            you unwind.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call To Action Section -->
+        <section class="cta section-padding" aria-labelledby="cta-heading">
+            <div class="container cta-content">
+                <div>
+                    <h2 id="cta-heading">Visit Us Today</h2>
+                    <p>
+                        Drop by for your morning coffee, a quick lunch break, or an evening
+                        catch-up with friends.
+                    </p>
+                </div>
+                <a href="contact.html" class="btn btn-primary">Find Us</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="current-year"></span> Aroma Café. All rights reserved.</p>
+            <p class="footer-sub">
+                Qilla Saifullah Block B, Balochistan • Phone: +92300 7193502
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js" defer></script>
+</body>
+</html>
