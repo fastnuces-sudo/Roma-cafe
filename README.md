@@ -1,5 +1,7 @@
 # Aroma Café – Business Website
-
+## Group Members
+1: Sajid Mehmood 25f-0771
+_2: Najeeb Ullah 25f-0761
 ## 1. Project Overview
 
 **Aroma Café** is a simple multi-page business website created using pure **HTML**, **CSS**, and **JavaScript**.  
@@ -77,4 +79,5 @@ aroma-cafe-website/
 │   ├── screenshot-about.png
 │   └── screenshot-contact.png
 ├── README.md
+
 └── SELF_EVALUATION.md
