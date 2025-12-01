@@ -1,12 +1,3 @@
-/* 
-    Aroma Café - Main Stylesheet (Updated Colors)
-    --------------------------------------------
-    This version uses a warmer, more attractive color palette:
-    - Vibrant coffee-orange as the primary color
-    - Soft cream background
-    - Subtle gradients and hover effects
-*/
-
 /* ========== Root Variables & Base Styles ========== */
 
 :root {
@@ -169,11 +160,6 @@ a:hover {
     font-weight: 700;
     font-size: 1.3rem;
     color: var(--primary-dark);
-}
-
-.logo img {
-    height: 36px;
-    margin-right: 0.5rem;
 }
 
 .logo-text {
@@ -423,7 +409,7 @@ a:hover {
 }
 
 .team-card img {
-    height: 190px;
+    height: 400px;
     object-fit: cover;
     width: 100%;
 }
