@@ -1,14 +1,4 @@
-/*
-    Aroma Café - Main JavaScript
-    -----------------------------
-    Features:
-    1. Contact form validation
-    2. Menu filtering by category
-    3. "Back to top" button behavior
-    4. Dynamic current year in footer
 
-    All code is kept simple and well-commented for easy explanation.
-*/
 
 document.addEventListener("DOMContentLoaded", function () {
     initCurrentYear();
@@ -192,4 +182,5 @@ function initContactFormValidation() {
             statusElement.style.color = "#c0392b";
         }
     });
+
 }
